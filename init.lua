@@ -11,6 +11,9 @@ require 'options'
 -- [[ Basic Keymaps ]]
 require 'keymaps'
 
+-- [[ Neovide ]]
+require 'neovide'
+
 -- [[ Install `lazy.nvim` plugin manager ]]
 require 'lazy-bootstrap'
 

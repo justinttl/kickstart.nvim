@@ -6,12 +6,18 @@ return {
 
     -- Configure linters
     lint.linters_by_ft = {
-      javascript = { 'fender_eslint' },
-      typescript = { 'fender_eslint' },
-      javascriptreact = { 'fender_eslint' },
-      typescriptreact = { 'fender_eslint' },
-      vue = { 'fender_eslint' },
-      svelte = { 'fender_eslint' },
+      -- javascript = { 'fender_eslint' },
+      -- typescript = { 'fender_eslint' },
+      -- javascriptreact = { 'fender_eslint' },
+      -- typescriptreact = { 'fender_eslint' },
+      -- vue = { 'fender_eslint' },
+      -- svelte = { 'fender_eslint' },
+      javascript = { 'eslint' },
+      typescript = { 'eslint' },
+      javascriptreact = { 'eslint' },
+      typescriptreact = { 'eslint' },
+      vue = { 'eslint' },
+      svelte = { 'eslint' },
       -- python = { 'ruff' },
     }
 
